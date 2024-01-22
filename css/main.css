@@ -105,3 +105,39 @@ body {
 
 .header-img {
 }
+
+.services {
+}
+
+.services-row {
+  padding: 90px 0;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.service-card {
+  width: 370px;
+  height: 228px;
+  flex-shrink: 0;
+  text-align: left;
+}
+
+.service-card-img {
+  width: 68px;
+  height: 68px;
+  margin-bottom: 30px;
+}
+
+.service-card-title {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.service-card-card p {
+  max-width: 370px;
+  font-size: 14px;
+  line-height: 2;
+}
