@@ -7,6 +7,7 @@ font-family: 'Poppins', sans-serif;
 
 body {
   font-family: "Poppins", sans-serif;
+  color: #000;
 }
 
 .container {
@@ -19,4 +20,88 @@ body {
 .header {
   padding-top: 46px;
   background-color: #f1f1f1;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* padding: 46px 0; */
+}
+
+.logo {
+  position: relative;
+  padding: 0 12px 3px 0;
+
+  color: #000;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1; /* 32px */
+}
+
+.logo::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  right: 0px;
+  bottom: 0px;
+
+  background-color: #fda300;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  column-gap: 50px;
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link.active {
+  color: #606060;
+}
+
+.header-row {
+  padding-top: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-content {
+  margin-top: 124px;
+  max-width: 500px;
+  text-align-last: left;
+}
+
+.header-title {
+  font-weight: 600;
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.header-content p {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.header-content p + p {
+  margin-top: 1em;
+}
+
+.header-img {
 }
