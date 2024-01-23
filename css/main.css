@@ -65,6 +65,9 @@ body {
   border: 1px solid #000;
 }
 
+.nav {
+}
+
 .nav-list {
   display: flex;
   justify-content: space-between;
@@ -83,6 +86,10 @@ body {
 
 .nav-link.active {
   color: #606060;
+}
+
+.nav-button {
+  display: none;
 }
 
 .header-row {
