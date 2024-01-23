@@ -8,6 +8,12 @@ font-family: 'Poppins', sans-serif;
 body {
   font-family: "Poppins", sans-serif;
   color: #000;
+  background-color: #f1f1f1;
+}
+
+.header-,
+.services- {
+  display: none;
 }
 
 .container {
@@ -15,6 +21,11 @@ body {
   padding: 0 30px;
   margin: 0 auto;
   text-align: center;
+}
+
+.title-1 {
+  font-weight: 600;
+  font-size: 34px;
 }
 
 .header {
@@ -107,13 +118,14 @@ body {
 }
 
 .services {
+  background-color: #fff;
 }
 
 .services-row {
   padding: 90px 0;
   display: flex;
   justify-content: space-between;
-  column-gap: 30px;
+  column-gap: 10px;
 }
 
 .service-card {
@@ -140,4 +152,40 @@ body {
   max-width: 370px;
   font-size: 14px;
   line-height: 2;
+}
+
+.portfolio {
+  padding: 90px 0;
+}
+
+.portfolio-title {
+  margin-bottom: 70px;
+}
+
+.project {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  text-align: center;
+}
+
+.project + .project {
+  margin-top: 90px;
+}
+
+.project img {
+  width: 930px;
+  height: 500px;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+}
+
+.project-link {
+  /* text-align: center; */
+  font-size: 18px;
+}
+
+.project-link a {
+  color: var(--Black, #070707);
+  text-decoration: underline;
 }
