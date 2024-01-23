@@ -3,10 +3,6 @@
     display: none;
   }
 
-  .nav-button {
-    display: block;
-  }
-
   .nav.open .nav-list {
     position: fixed;
     top: 0;
@@ -38,8 +34,83 @@
   }
 
   .nav-button {
-    position: fixed;
+    display: block;
+    /* position: fixed; */
+    position: absolute; /* button on top page */
     top: 46px;
     right: 30px;
+  }
+
+  .nav.open .nav-button {
+    position: fixed; /* button on top page */
+  }
+
+  .header-row {
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 50px;
+  }
+
+  .header-content {
+    margin-top: 0;
+  }
+
+  .header-img {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-title {
+    font-size: 34px;
+  }
+
+  .header-title span {
+    font-size: 28px;
+  }
+
+  .services-row {
+    padding: 60px 0;
+  }
+
+  .service-card {
+    min-width: 315px;
+  }
+
+  .portfolio {
+    padding: 60px 0;
+  }
+
+  .portfolio-title {
+    margin-bottom: 50px;
+  }
+
+  .project + .project {
+    margin-top: 55px;
+  }
+
+  .project img {
+    max-width: 315px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .contacts {
+    padding: 60px 0;
+  }
+
+  .contacts-title,
+  .contacts-content {
+    margin-bottom: 20px;
+  }
+
+  .contacts-button {
+    margin-bottom: 70px;
+  }
+
+  .contacts-social {
+    min-width: 296px;
+    column-gap: 50px;
+    margin-bottom: 20px;
   }
 }
