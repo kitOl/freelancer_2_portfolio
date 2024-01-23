@@ -11,6 +11,6 @@ navBtn.onclick = () => {
 };
 
 AOS.init({
-  disable: "phone",
+  // disable: "phone",
   // once: true,
 });
