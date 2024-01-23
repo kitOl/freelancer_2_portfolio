@@ -8,7 +8,6 @@ font-family: 'Poppins', sans-serif;
 body {
   font-family: "Poppins", sans-serif;
   color: #000;
-  background-color: #f1f1f1;
 }
 
 .header-,
@@ -118,7 +117,6 @@ body {
 }
 
 .services {
-  background-color: #fff;
 }
 
 .services-row {
@@ -156,6 +154,7 @@ body {
 
 .portfolio {
   padding: 90px 0;
+  background-color: #f1f1f1;
 }
 
 .portfolio-title {
@@ -166,6 +165,7 @@ body {
   /* display: flex;
   flex-direction: column;
   align-items: center; */
+
   text-align: center;
 }
 
@@ -188,4 +188,63 @@ body {
 .project-link a {
   color: var(--Black, #070707);
   text-decoration: underline;
+}
+
+.contacts {
+  padding: 90px 0;
+}
+
+.contacts-title {
+  margin-bottom: 40px;
+}
+
+.contacts-content {
+  max-width: 296px;
+  font-size: 18px;
+  margin: 0 auto 40px;
+}
+
+.contacts-content p + p {
+  margin-top: 1em;
+}
+
+.contacts-button {
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 7px 22px;
+  background-color: var(--Black, #070707);
+  border-radius: 23px;
+
+  font-size: 18px;
+  color: #fff;
+  transition: background-color 0.15s ease-in, top 0.15s ease-in;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #272727;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+  background-color: #000;
+}
+
+.contacts-social {
+  min-width: 342px;
+  display: flex;
+  column-gap: 60px;
+  justify-content: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.contacts-footer {
+  color: #828282;
+  text-align: center;
+  font-size: 14px;
 }
